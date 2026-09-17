@@ -1,0 +1,20 @@
+# Personal working notes and credentials
+local/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local build and validation artifacts
+__pycache__/
+*.pyc
+dist/
+*.zip
